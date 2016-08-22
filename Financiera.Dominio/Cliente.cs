@@ -5,15 +5,25 @@ using System.Text;
 
 namespace Financiera.Dominio
 {/// <summary>
-/// CLIENTEEEEEEEEE V4
+/// CLIENTEEEEEEEEE V6
 /// </summary>
     public class Cliente
     {
+        /// <summary>
+        /// Propiedades de la Clase Cliente
+        /// </summary>
         public int CodigoCliente { get;set; }
 
         public String NombreCliente { get; set; }
 
         public Byte TipoCliente{ get; set; }
+
+        /// <summary>
+        /// Metodo que devuelve los datos del cliente y su cuenta
+        /// </summary>
+        /// <param name="as_nombre"></param>
+        /// <param name="aby_tipo"></param>
+        /// <returns>Datos del Cliente y Cuenta</returns>
 
         public Cliente DarAlta (String as_nombre, byte aby_tipo)
         {
