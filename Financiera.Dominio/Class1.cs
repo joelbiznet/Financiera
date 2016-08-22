@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Financiera.Dominio
 {
+    /// <summary>
+    /// Probando Eduardo
+    /// 
+    /// </summary>
     public class Class1
     {
     }
