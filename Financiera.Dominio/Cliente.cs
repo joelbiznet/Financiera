@@ -18,6 +18,13 @@ namespace Financiera.Dominio
 
         public Byte TipoCliente{ get; set; }
 
+        /// <summary>
+        /// Metodo que devuelve los datos del cliente y su cuenta
+        /// </summary>
+        /// <param name="as_nombre"></param>
+        /// <param name="aby_tipo"></param>
+        /// <returns>Datos del Cliente y Cuenta</returns>
+
         public Cliente DarAlta (String as_nombre, byte aby_tipo)
         {
             return new Cliente()
