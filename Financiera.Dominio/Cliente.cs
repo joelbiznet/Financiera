@@ -9,6 +9,9 @@ namespace Financiera.Dominio
 /// </summary>
     public class Cliente
     {
+        /// <summary>
+        /// Propiedades de la Clase Cliente
+        /// </summary>
         public int CodigoCliente { get;set; }
 
         public String NombreCliente { get; set; }
