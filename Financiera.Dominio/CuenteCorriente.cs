@@ -8,65 +8,35 @@ namespace Financiera.Dominio
     public class CuenteCorriente
     {
         public int NumeroCuenta
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
+        {            get;            set;
 
-            set
-            {
-            }
         }
 
         public int Saldo
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
+            get       ;            set;
+          
         }
 
         public int FechaApertura
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
+            get;            set;
+            
+            
         }
         /// <summary>
         /// Estado de la cuenta del cliente
         /// </summary>
         public int EstadoCuenta
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
+            get;            set;
+          
         }
 
         public Cliente Cliente
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
+            get;            set;
+           
         }
 
         public void Aperturar()
