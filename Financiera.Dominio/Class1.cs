@@ -9,6 +9,7 @@ namespace Financiera.Dominio
     /// <summary>
     /// Probando Eduardo
     /// sigo probando 
+    /// El percys
     /// </summary>
     public class Class1
     {
