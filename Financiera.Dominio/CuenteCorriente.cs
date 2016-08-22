@@ -42,7 +42,9 @@ namespace Financiera.Dominio
             {
             }
         }
-
+        /// <summary>
+        /// Estado de la cuenta del cliente
+        /// </summary>
         public int EstadoCuenta
         {
             get
