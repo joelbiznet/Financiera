@@ -8,7 +8,7 @@ namespace Financiera.Dominio
 {
     /// <summary>
     /// Probando Eduardo
-    /// 
+    /// sigo probando 
     /// </summary>
     public class Class1
     {
