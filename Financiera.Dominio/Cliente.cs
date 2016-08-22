@@ -34,10 +34,17 @@ namespace Financiera.Dominio
             };
         }
 
+        /// <summary>
+        /// Metodo que realiza el Alta para el Cliente
+        /// </summary>
         public void DarAlta()
         {
             throw new System.NotImplementedException();
         }
+
+        /// <summary>
+        /// Metodo para modificar el nombre del cliente
+        /// </summary>
 
         public void ModificarNombre()
         {
