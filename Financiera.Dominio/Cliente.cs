@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 
 namespace Financiera.Dominio
-{
+{/// <summary>
+/// CLIENTEEEEEE
+/// </summary>
     public class Cliente
     {
         public int CodigoCliente { get;set; }
