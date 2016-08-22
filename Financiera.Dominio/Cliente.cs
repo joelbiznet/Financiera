@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Financiera.Dominio
 {/// <summary>
-/// CLIENTEEEEEEEEE V4
+/// CLIENTEEEEEEEEE V6
 /// </summary>
     public class Cliente
     {
