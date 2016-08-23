@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="CU01CuentasCorrientes">
+  <useCaseModelRootMoniker Id="3d8c32e9-e78d-47be-a1b9-a75bff31bd29" />
+  <nestedChildShapes>
+    <actorShape Id="405d51f4-56ad-4250-8752-46953228e4b9" absoluteBounds="1.25, 0.875, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="3ac56317-6db0-48ea-8ce1-214dce296537" LastKnownName="Cliente" />
+      <relativeChildShapes />
+    </actorShape>
+  </nestedChildShapes>
+</useCaseDiagram>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="3d8c32e9-e78d-47be-a1b9-a75bff31bd29" name="CU01CuentasCorrientes" linkedPackageId="79d1404b-6795-4253-9d26-81b5e9a4c72f" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="eff11b0c-4f15-4d5b-b593-6e58f7294750">
+      <profileInstance Id="89c065ea-3e47-421f-be77-21497960370a" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="ded69374-978a-4147-b94e-56aac2b6fc16">
+      <profileInstance Id="c7a46f3d-f7ad-47ef-a2cf-ee96bc27cade" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="3ac56317-6db0-48ea-8ce1-214dce296537" name="Cliente" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="33ecb6dd-1ad1-46f7-9a16-0b24948801a9" />
+      </actor>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="79d1404b-6795-4253-9d26-81b5e9a4c72f" name="FinancieraModeloPercy">
+    <elementDefinition Id="e0c0707b-9d0b-44fc-939a-8a6374e69dd6" />
+  </package>
+</useCaseModelRoot>
