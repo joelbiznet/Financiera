@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financiera.Dominio", "Finan
 EndProject
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "FinancieraModeloPercy", "FinancieraModeloPercy\FinancieraModeloPercy.modelproj", "{D45369BB-6BFC-48D6-A702-908CDCB650EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancieraInfraestructura", "FinancieraInfraestructura\FinancieraInfraestructura.csproj", "{1286F386-9C40-4F0D-AAC8-8587F63DD0D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancieraInfraestructura.Datos", "FinancieraInfraestructura\FinancieraInfraestructura.Datos.csproj", "{1286F386-9C40-4F0D-AAC8-8587F63DD0D9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancieraPruebas", "FinancieraPruebas\FinancieraPruebas.csproj", "{EE0E25E6-87F5-4EA6-A4BC-6E9F886ACA85}"
 EndProject

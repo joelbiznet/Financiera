@@ -143,9 +143,9 @@
       <Project>{d150a791-e554-4b9c-801a-793ab06e2dea}</Project>
       <Name>Financiera.Dominio</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FinancieraInfraestructura\FinancieraInfraestructura.csproj">
+    <ProjectReference Include="..\FinancieraInfraestructura\FinancieraInfraestructura.Datos.csproj">
       <Project>{1286f386-9c40-4f0d-aac8-8587f63dd0d9}</Project>
-      <Name>FinancieraInfraestructura</Name>
+      <Name>FinancieraInfraestructura.Datos</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

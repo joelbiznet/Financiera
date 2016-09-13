@@ -49,7 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="RepositorioGenerico.cs" />
     <Compile Include="ClienteMapeo.cs" />
     <Compile Include="CuentaCorrienteMapeo.cs" />
     <Compile Include="FinancieraContexto.cs" />

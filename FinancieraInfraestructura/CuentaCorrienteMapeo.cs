@@ -1,12 +1,14 @@
-﻿using System;
+﻿using Financiera.Dominio;
+using System;
 using System.Collections.Generic;
+using System.Data.Entity.ModelConfiguration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FinancieraInfraestructura
+namespace FinancieraInfraestructura.Datos
 {
-    class CuentaCorrienteMapeo : EntityTypeConfiguration <CuentaCorriente>
+    class CuentaCorrienteMapeo : EntityTypeConfiguration<CuentaCorriente>
     {
         public CuentaCorrienteMapeo()
         {
@@ -19,7 +21,7 @@ namespace FinancieraInfraestructura
             Property(p => p.Saldocuenta).HasColumnName("SAL_CUENTA").IsRequired();
             Property(p => p.EstadoCuenta).HasColumnName("IND_CUENTA").IsRequired();
 
-            HasMany(m=> m.Propietario).WithMany().HasForeignKey(f=>f.CodigoCliente)
+            HasMany(m => m.Propietario).WithMany().HasForeignKey(f => f.CodigoCliente);
         }
     }
 }

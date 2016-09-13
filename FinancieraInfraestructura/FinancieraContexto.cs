@@ -1,13 +1,15 @@
-﻿using System;
+﻿using Financiera.Dominio;
+using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FinancieraInfraestructura
+namespace FinancieraInfraestructura.Datos
 {
-    class FinancieraContexto  : DbContext
+    public class FinancieraContexto  : DbContext
     {
         #region Constructor
 
@@ -25,8 +27,8 @@ namespace FinancieraInfraestructura
         #region metodos
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder)
-            modelBuilder.Configuration.Add(new ClienteMapeo());
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Configurations.Add(new ClienteMapeo());
             modelBuilder.Configurations.Add(new CuentaCorrienteMapeo());
 
         }

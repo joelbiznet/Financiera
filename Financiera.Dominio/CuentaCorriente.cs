@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Financiera.Dominio
 {
-    public class CuenteCorriente
+    public class CuentaCorriente
     {
         public int NumeroCuenta   { get;  set;}
 
@@ -16,6 +16,12 @@ namespace Financiera.Dominio
         /// Estado de la cuenta del cliente
         /// </summary>
         public int EstadoCuenta        {            get;            set;        }
+
+        public int CodigoCuenta { get; set; }
+
+        public int CodigoCliente { get; set; }
+
+        public int Saldocuenta { get; set; }
 
         public Cliente Cliente        {            get;            set;            }
 
@@ -38,5 +44,6 @@ namespace Financiera.Dominio
         {
             throw new System.NotImplementedException();
         }
+
     }
 }
