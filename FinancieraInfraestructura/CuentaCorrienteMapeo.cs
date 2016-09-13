@@ -21,7 +21,7 @@ namespace FinancieraInfraestructura.Datos
             Property(p => p.Saldocuenta).HasColumnName("SAL_CUENTA").IsRequired();
             Property(p => p.EstadoCuenta).HasColumnName("IND_CUENTA").IsRequired();
 
-            HasMany(m => m.Propietario).WithMany().HasForeignKey(f => f.CodigoCliente);
+            HasRequired(m => m.Propietario).WithMany().HasForeignKey(f => f.CodigoCliente);
         }
     }
 }

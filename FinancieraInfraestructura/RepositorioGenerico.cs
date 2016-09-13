@@ -16,6 +16,7 @@ namespace FinancieraInfraestructura.Datos
 
         public RepositorioGenerico(FinancieraContexto ao_contexto)
         {
+            this.io_contexto = ao_contexto;
             this.Entidad = ao_contexto.Set<T>();
         }
         public RepositorioGenerico() : this(new FinancieraContexto())

@@ -23,7 +23,7 @@ namespace Financiera.Dominio
 
         public int Saldocuenta { get; set; }
 
-        public Cliente Cliente        {            get;            set;            }
+        public virtual Cliente Propietario        {            get;            set;            }
 
         public void Aperturar()
         {
